@@ -1,5 +1,5 @@
 /* 
- * Copyright 2020 Mikhail Khodonov.
+ * Copyright 2022 Mikhail Khodonov.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,15 +17,12 @@
 package org.homedns.mkh.dbservice;
 
 /**
- * Connections pool parameters object
- * for details @see <a href="commons.apache.org/proper/commons-dbcp/configuration.html">commons-dbcp2 configuration</a>
- *  
- * @author Mikhail Khodonov
+ * Data source parameters object for details @see <a href=
+ * "commons.apache.org/proper/commons-dbcp/configuration.html">commons-dbcp2
+ * configuration</a>
  *
  */
-public class CPParams {
-	// connection pool parameters object name 
-	// and same name will be for transaction object created using it, default must have 'default' name
+public class DataSourceParams {
 	private String name;
 	private String userName;
 	private String password;
@@ -38,7 +35,7 @@ public class CPParams {
 	private boolean testWhileIdle;
 	private boolean removeAbandoned;
 	
-	public CPParams( ) { }
+	public DataSourceParams( ) { }
 	
 	/**
 	 * @return the name
