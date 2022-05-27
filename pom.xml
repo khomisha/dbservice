@@ -4,7 +4,7 @@
 
   <groupId>org.homedns.mkh</groupId>
   <artifactId>dbservice</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <packaging>jar</packaging>
 
   <name>dbservice</name>
@@ -35,7 +35,7 @@
     <dependency>
     	<groupId>org.homedns.mkh</groupId>
     	<artifactId>databuffer</artifactId>
-    	<version>1.0.51</version>
+    	<version>1.1.0</version>
     </dependency>
 	<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 	<dependency>
